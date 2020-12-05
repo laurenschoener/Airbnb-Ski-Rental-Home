@@ -36,9 +36,14 @@ The significance of this distribution is made more clear when looking at the cos
 
 The scores are presented in relation to the national average of 100, so each of these locations are above the national average. Just by visually assessing these costs compared to the price per night Airbnb distribution, it is clear that Aspen is probably not going to give you the best return. It is almost three times the national average cost of living and the next highest cost of living is Telluride that is only two times the national average. Telluride actually has a higher median price per night on Airbnb, indicating that at least between these two resorts, Telluride would be the better of the two to purchase a home. 
 
+<p align="center">
+    <img src="images/rentaltype.jpg" />
+</p>
+
+
 ## Random Forest
 
-
+After building a random forest to predict the price of an Airbnb rental I received a root mean squared error of 118.42.
 
 
 ## References
