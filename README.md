@@ -14,6 +14,10 @@ The purpose of this deep dive into the Airbnb market for homes near ski resports
 
 Since the available Airbnb data did not contain the cities I was looking for to make my conclusion, I created a dataframe to determine where to purchase a ski home to maximize revenue. I scraped Airbnb listing pages from ten different locations. These locations were chosen based on the top ten ski resorts. I used Beautiful Soup to scrape the listings and generate a pandas data frame with 3000 rows and 19 columns. 
 
+<p align="center">
+    <img src="images/listing.jpg" />
+</p>
+
 ## Exploratory Data Analysis
 
 The first question I wanted to answer was how Airbnb price per night was distributed in each of the ten locations. I created a box plot that visualized the answer to this question. 
@@ -44,6 +48,10 @@ The scores are presented in relation to the national average of 100, so each of 
 ## Random Forest
 
 After building a random forest to predict the price of an Airbnb rental I received a root mean squared error of 118.42.
+
+The top three features that contributed to price were number of allowed guests, number of beds and average review.
+
+In the future I would like to remove the prices that were large outliers because I believe that contributed to the poor mean squared error. 
 
 
 ## References
